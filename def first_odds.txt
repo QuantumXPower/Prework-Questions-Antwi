@@ -1,0 +1,14 @@
+"""
+The purpose of modulus operator is to return the remainder of dividint two numbers. If the remainder is not equal to zero then it signifies that it is an odd number. Function prints the odd number and then adds one to the start variable as the loop continues
+"""
+
+def first_odds():
+
+start = 1
+end = 100
+
+print("Odd Numbers from 1 to 100 are...")
+while start < end:
+	if start % 2 != 0:
+		print(start)
+	start +=1

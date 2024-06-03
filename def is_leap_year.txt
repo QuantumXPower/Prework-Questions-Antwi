@@ -1,0 +1,13 @@
+def is_leap_year(a_year):
+
+start = 1999
+end = 2024
+
+print("Leap Year Program")
+
+while start <= end:
+	if(start % 4 == 0 and start %  100 !=0) or (start % 400 == 0)
+	print(f "{start} is a leap year.")
+	else:
+	print(f"{year} is not a leap year")
+	start +=1

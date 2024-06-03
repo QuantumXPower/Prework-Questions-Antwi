@@ -1,0 +1,7 @@
+def hello_name(user_name):
+	print("Username is: " +user_name)
+
+user_name = input("Enter username:")
+hello_name(user_name)
+
+

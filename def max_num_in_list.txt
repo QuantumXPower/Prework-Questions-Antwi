@@ -1,0 +1,11 @@
+"""
+Find the maximum value using max() function.
+This is the simpliest and straight forward approach to find the largest element.
+"""
+def max_num_in_list(a_list):
+
+list1 = [3, 2, 8, 5, 10, 15, 6, 20]
+max_number = max(list1)
+print("The largest number is: ", max_number)
+
+
